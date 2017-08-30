@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	httpListenAddr := flag.String("port", "8080", "HTTP Listen address.")
+	httpListenAddr := flag.String("port", "80", "HTTP Listen address.")
 
 	flag.Parse()
 
@@ -41,7 +41,7 @@ const (
 				<canvas id="canvasEnemy" width="800" height="500" ></canvas>
 				<canvas id="canvasJet" width="800" height="500" ></canvas>
 				<canvas id="canvasHud" width="800" height="500" ></canvas>
-				<script src='/static/game2.js'></script>
+				<script src='/static/game.js'></script>
 				<div class="details">
 				<strong>Hostname: </strong>%s<br>
 				<strong>Release: </strong>%s<br>
