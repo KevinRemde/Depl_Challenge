@@ -22,7 +22,11 @@ Hint: You'll need to **tag** your image to match the registry name / image befor
 
 ### Create a web app (Linux Preview) in Azure and configure it to pull your app container
 
-Did you know that you can connect/associate a linux-based container to/with an Azure Web App?  Try it out. Set it up to pull your croc-hunter container from your Docker hub registry. 
+Did you know that you can connect/associate a linux-based container to/with an Azure Web App?  Try it out. Set it up to pull your croc-hunter container from your Docker hub registry. _Bonus kudos for you if you configure your app to refresh when a newer version of the container is put in your Docker hub registry._
+
+### And then try this...
+
+Change the croc-hunter.go file, line 44, to run "game2.js".  Re-build and re-push your container, and see if the boat starts shooting fish instead of laserbeams.  
 
 ## Extra Credit
 
